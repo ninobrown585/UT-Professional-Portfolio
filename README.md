@@ -7,7 +7,7 @@ Was a very exciting assignment and i look forward to my future coding challenges
 
  Use [screenshot](./assets/images/Professional%20portfolio%20screenshot..png)
 
-## 💡 Notes
+## 💡 Live Site
 
 Use [Github](https://ninobrown585.github.io/UT-Professional-Portfolio/) to view the deployed page.
 
