@@ -3,7 +3,12 @@
 
 <head>
     <meta charset="UTF-8" />
-    <link rel="stylesheet" href="./assets/css/style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <!-- bootstrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+  <!-- local css -->
+  <link rel="stylesheet" href="./assets/css/style.css" />
     <title>Portfolio</title>
 </head>
 
@@ -41,11 +46,30 @@
                 </p>
             </div>
             </div>
-            <div id="Work" class="Work">
-               <a href="https://ninobrown585.github.io/Horiseon/"> <img src="./assets/images/first-site.png" alt="created website" class="float-right" /></a>
+            <div class="container" id="Work">
                 <h2 class="title-h2">Work|</h2>
                 <p>click image to view!</p>
-            </div>
+                <div class="row">
+                  <div class="col">
+                    <a href="https://ninobrown585.github.io/Code-Quiz/"><img src="./assets/images/code-quiz-resized.png" alt="codingQuiz"></a>
+                  </div>
+                  <div class="col">
+                    <a href="https://ninobrown585.github.io/Weather-Dashboard/"><img src="./assets/images/weatherDashboard-resized.png" alt="WeatherDashboard"></a>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col">
+                    <a href="https://ninobrown585.github.io/work-day-scheduler/"><img src="./assets/images/workDayScheduler-resized1.png" alt="Scheduler"></a>
+                  </div>
+                  <div class="col">
+                    <a href="https://ninobrown585.github.io/WikiTubeProject/"><img src="./assets/images/WikiTube-resized.png" alt="Wikitube"></a>
+                  </div>
+                  <div class="col">
+                    <a href="https://ninobrown585.github.io/Horiseon/"> <img src="./assets/images/first-site-resized.png" alt="created website"  /></a>
+                  </div>
+                </div>
+              </div>
+           <p></p>
             <div id="Contact" class="Contact">
                 <img src="./assets/images/social contact.jpg" alt="Contact me image" class="float-left" />
                 <h2 class="title-h2">|Contact Me</h2>
@@ -63,6 +87,9 @@
                 </p>
             </div>
         </section>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    
     </main>
     <footer class="footer">
         <h2>My First Site</h2>
